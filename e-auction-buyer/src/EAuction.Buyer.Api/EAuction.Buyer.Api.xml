@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EAuction.Buyer.Api</name>
+    </assembly>
+    <members>
+        <member name="M:EAuction.Buyer.Api.Controllers.AuctionController.#ctor(MassTransit.IPublishEndpoint,MassTransit.IRequestClient{EAuction.Buyer.Contracts.Models.AddAuctionRequestModel},MassTransit.IRequestClient{EAuction.Buyer.Contracts.Models.UpdateAuctionRequestModel},Microsoft.Extensions.Logging.ILogger{EAuction.Buyer.Api.Controllers.AuctionController})">
+            <summary>
+            AuctionController
+            </summary>
+            <param name="endpoint"></param>
+            <param name="requestClient"></param>
+            <param name="requestClientDelete"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:EAuction.Buyer.Api.Controllers.AuctionController.AddAuction(EAuction.Buyer.Contracts.Models.AddAuctionRequestModel,System.Threading.CancellationToken)">
+            <summary>
+            
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EAuction.Buyer.Api.Infrastructure.MassTransitExtension.AddCustomMassTransit(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            AddCustomMassTransit
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EAuction.Buyer.Api.Infrastructure.MassTransitExtension.EnableCustomMassTransit(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+             EnableCustomMassTransit
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+            <returns></returns>
+        </member>
+        <member name="P:EAuction.Buyer.Api.Infrastructure.RabbitMqConfiguration.RabbitMqRootUri">
+            <summary>
+            RabbitMqRootUri
+            </summary>
+        </member>
+        <member name="P:EAuction.Buyer.Api.Infrastructure.RabbitMqConfiguration.UserName">
+            <summary>
+            UserName
+            </summary>
+        </member>
+        <member name="P:EAuction.Buyer.Api.Infrastructure.RabbitMqConfiguration.Password">
+            <summary>
+            Password
+            </summary>
+        </member>
+    </members>
+</doc>

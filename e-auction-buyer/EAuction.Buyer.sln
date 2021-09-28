@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EAuction.Buyer.Api", "src\EAuction.Buyer.Api\EAuction.Buyer.Api.csproj", "{47E855B7-0FFC-4427-A408-C45CDED8D540}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EAuction.Buyer.Contracts", "src\EAuction.Buyer.Contracts\EAuction.Buyer.Contracts.csproj", "{6EBC1DE4-657C-411A-B06B-7E46201CF790}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EAuction.Buyer.Domain", "src\EAuction.Buyer.Domain\EAuction.Buyer.Domain.csproj", "{C00E796F-0ABB-4ADC-A9DB-33F66AD97924}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EAuction.Buyer.Infrastucture", "src\EAuction.Buyer.Infrastucture\EAuction.Buyer.Infrastucture.csproj", "{EF20EAD5-3A35-4095-8B11-1E129BC9750A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EAuction.Buyer.Endpoint", "src\EAuction.Buyer.Endpoint\EAuction.Buyer.Endpoint.csproj", "{AAA34386-D80B-4E5D-9879-450FB67F6665}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{278F35A8-D6F4-4450-A541-E7D04AB30326}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47E855B7-0FFC-4427-A408-C45CDED8D540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E855B7-0FFC-4427-A408-C45CDED8D540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E855B7-0FFC-4427-A408-C45CDED8D540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E855B7-0FFC-4427-A408-C45CDED8D540}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EBC1DE4-657C-411A-B06B-7E46201CF790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EBC1DE4-657C-411A-B06B-7E46201CF790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EBC1DE4-657C-411A-B06B-7E46201CF790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EBC1DE4-657C-411A-B06B-7E46201CF790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C00E796F-0ABB-4ADC-A9DB-33F66AD97924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C00E796F-0ABB-4ADC-A9DB-33F66AD97924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C00E796F-0ABB-4ADC-A9DB-33F66AD97924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C00E796F-0ABB-4ADC-A9DB-33F66AD97924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF20EAD5-3A35-4095-8B11-1E129BC9750A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF20EAD5-3A35-4095-8B11-1E129BC9750A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF20EAD5-3A35-4095-8B11-1E129BC9750A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF20EAD5-3A35-4095-8B11-1E129BC9750A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAA34386-D80B-4E5D-9879-450FB67F6665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA34386-D80B-4E5D-9879-450FB67F6665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA34386-D80B-4E5D-9879-450FB67F6665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA34386-D80B-4E5D-9879-450FB67F6665}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47E855B7-0FFC-4427-A408-C45CDED8D540} = {278F35A8-D6F4-4450-A541-E7D04AB30326}
+		{6EBC1DE4-657C-411A-B06B-7E46201CF790} = {278F35A8-D6F4-4450-A541-E7D04AB30326}
+		{C00E796F-0ABB-4ADC-A9DB-33F66AD97924} = {278F35A8-D6F4-4450-A541-E7D04AB30326}
+		{EF20EAD5-3A35-4095-8B11-1E129BC9750A} = {278F35A8-D6F4-4450-A541-E7D04AB30326}
+		{AAA34386-D80B-4E5D-9879-450FB67F6665} = {278F35A8-D6F4-4450-A541-E7D04AB30326}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71943C4D-3A32-4DFC-853C-B1F9F62E2C1E}
+	EndGlobalSection
+EndGlobal

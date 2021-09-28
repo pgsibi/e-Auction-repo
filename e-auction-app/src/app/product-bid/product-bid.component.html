@@ -1,0 +1,111 @@
+<div class="content">
+    <div class="card-container">
+        <div class="card">
+            <div class="row">
+                <div class="col">
+                    <p class="label">Product </p>
+                </div>
+                <div class="col">
+                    <form>
+                        <div class="form-group">
+                            <select formControlName="website" class="form-control prd-dropdown">
+                                <option disabled>Products</option>
+                                <option>Product1</option>
+                                <option>Product2</option>
+                                <option>Product3</option>
+                                <option>Product4</option>
+                                <option>Product5</option>
+                                <!-- <option *ngFor="let web of websiteList">{{web}}</option> -->
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="col">
+                    <button class="btn btn-primary" type="submit">Get</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row product-row title-row">
+        <div class="col bid-title"><span class="bid-title">Product Details</span></div>
+    </div>
+
+    <div class="row product-row">
+        <div class="col">
+
+
+            <table class="table table-striped table-responsive-md btn-table product-table">
+
+                <tbody>
+                    <tr>
+                        <td width="40%"><span class="td-label">Product Name</span></td>
+                        <td>Product Name</td>
+                    </tr>
+                    <tr>
+                        <td><span class="td-label">Short Description</span></td>
+                        <td>Short Description</td>
+                    </tr>
+                    <tr>
+                        <td><span class="td-label">Category</span></td>
+                        <td>Category</td>
+                    </tr>
+                    <tr>
+                        <td><span class="td-label">Starting Price</span></td>
+                        <td>Starting Price</td>
+                    </tr>
+                    <tr>
+                        <td><span class="td-label">Bid End Date</span></td>
+                        <td>Bid End Date</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <div class="row product-row title-row">
+        <div class="col bid-title"><span class="bid-title">Bids</span></div>
+    </div>
+    <div class="row product-row">
+        <div class="col">
+            
+            <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+                <!--- Note that these columns can be defined in any order.
+                      The actual rendered columns are set as a property on the row definition" -->
+              
+                <!-- Position Column -->
+                <ng-container matColumnDef="bidAmount">
+                  <th mat-header-cell *matHeaderCellDef> Bid Amount </th>
+                  <td mat-cell *matCellDef="let element"> {{element.bidAmount}} </td>
+                </ng-container>
+              
+                <!-- Name Column -->
+                <ng-container matColumnDef="name">
+                  <th mat-header-cell *matHeaderCellDef> Name </th>
+                  <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+                </ng-container>
+              
+                <!-- Weight Column -->
+                <ng-container matColumnDef="email">
+                  <th mat-header-cell *matHeaderCellDef> Email </th>
+                  <td mat-cell *matCellDef="let element"> {{element.email}} </td>
+                </ng-container>
+              
+                <!-- Symbol Column -->
+                <ng-container matColumnDef="mobile">
+                  <th mat-header-cell *matHeaderCellDef> Mobile </th>
+                  <td mat-cell *matCellDef="let element"> {{element.mobile}} </td>
+                </ng-container>
+              
+                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+              </table>
+              
+              
+
+        </div>
+
+    </div>
+
+</div>

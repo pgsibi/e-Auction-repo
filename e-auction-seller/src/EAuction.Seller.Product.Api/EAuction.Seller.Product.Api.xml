@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EAuction.Seller.Product.Api</name>
+    </assembly>
+    <members>
+        <member name="T:EAuction.Seller.Product.Api.Models.ProductModel">
+            <summary>
+            Product Model
+            </summary>
+        </member>
+        <member name="M:EAuction.Seller.Product.Api.Models.ProductModel.Validate(System.ComponentModel.DataAnnotations.ValidationContext)">
+            <summary>
+            Validate
+            </summary>
+            <param name="validationContext"></param>
+            <returns></returns>
+        </member>
+        <member name="T:EAuction.Seller.Product.Api.Models.ProductResultModel">
+            <summary>
+            Product Result Model
+            </summary>
+        </member>
+        <member name="T:EAuction.Seller.Product.Api.Models.SellerModel">
+            <summary>
+            Seller Model
+            </summary>
+        </member>
+        <member name="T:EAuction.Seller.Product.Api.Models.SellerProductModel">
+            <summary>
+            Seller Product Model
+            </summary>
+        </member>
+    </members>
+</doc>
